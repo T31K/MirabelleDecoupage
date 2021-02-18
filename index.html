@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
                 <div class="container">
@@ -46,21 +46,22 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="index.html">Home</a></li>
-                                        <li><a href="story.html">About</a></li>
-                                        <li><a href="Gallery.html">Courses</a></li>
-                                        <li><a href="#">Products <i class="ti-angle-down"></i></a>
+                                        <li><a class="active" href="index.html#home">Home</a></li>
+                                        <li><a href="index.html#about">About</a></li>
+                                        <li><a href="index.html#courses">Courses</a></li>
+                                        <li><a href="index.html#products">Products <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">blog</a></li>
                                                 <li><a href="single-blog.html">single-blog</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Student Work <i class="ti-angle-down"></i></a>
+                                        <li><a href="index.html#studentworks">Student Works <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="Accommodation.html">Accommodation</a></li>
                                                 <li><a href="elements.html">elements</a></li>
                                             </ul>
                                         </li>
+                                        <li><a href="index.html#contact">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -76,13 +77,13 @@
 
     <div class="slider_area ">
         <div class="slider_area_inner slider_bg_1 overlay2">
-            <div class="slider_text text-center">
+            <!-- <div class="slider_text text-center">
                 <div class="text_inner">
                     <img src="img/banner/ornaments.png" alt="">
                     <h3>Mirabellé Decoupage</h3>
                     <span>Creativity Beyond Imagination Married</span>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -112,7 +113,51 @@
                 </div>
             </div>
         </div>
+    </section>
 
+
+        <section id="courses">
+            <div class="program_details_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="section_title text-center">
+                                <img src="img/banner/flowers.png" alt="">
+                                <h3>Our Courses</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="single_program program_bg_1 text-center">
+                                <div class="program_inner ">
+                                    <img src="img/program_details/ornaments.png" alt="">
+                                    <h3><span class="font-weight-bold">TO-DO</span>  Teacher's Certificate in Decoupage</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="single_program program_bg_2 text-center">
+                                <div class="program_inner ">
+                                    <img src="img/program_details/ornaments.png" alt="">
+                                    <h3><span class="font-weight-bold">TO-DO</span> Teacher's Certificate in Decoupage (Children)</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="single_program program_bg_3 text-center">
+                                <div class="program_inner ">
+                                    <img src="img/program_details/ornaments.png" alt="">
+                                    <h3><span class="font-weight-bold">Sospeso Trasparente</span>  Certificate of Merit</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
         <div class="love_story_area">
             <div class="container">
                 <div class="row">
@@ -149,7 +194,6 @@
                         </div>
                     </div>
 
-
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="single_lover_story text-center">
                             <div class="story_thumb">
@@ -157,54 +201,45 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="single_lover_story text-center">
+                            <div class="story_thumb">
+                                <img src="img/brands/decofoam.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="single_lover_story text-center">
+                            <div class="story_thumb">
+                                <img src="img/brands/sospeso.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="single_lover_story text-center">
+                            <div class="story_thumb">
+                                <img src="img/brands/washipaper.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="single_lover_story text-center">
+                            <div class="story_thumb">
+                                <img src="img/brands/todo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <button class="boxed_btn3 mt-5 d-block mx-auto">View products</button>   
             </div>
         </div>
     </section>
 
-    <section id="courses">
-        <div class="program_details_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="section_title text-center">
-                            <img src="img/banner/flowers.png" alt="">
-                            <h3>Our Courses</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single_program program_bg_1 text-center">
-                            <div class="program_inner ">
-                                <h3>TO-DO Teacher's Certificate in Decoupage</h3>
-                                <img src="img/program_details/ornaments.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single_program program_bg_2 text-center">
-                            <div class="program_inner ">
-                                <span>
-                                    20.00
-                                </span>
-                                <h3>TO-DO Teacher's Certificate in Decoupage (Children)</h3>
-                                <img src="img/program_details/ornaments.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="single_program program_bg_3 text-center">
-                            <div class="program_inner ">
-                                <h3>Sospeso Trasparente Certificate of Merit</h3>
-                                <img src="img/program_details/ornaments.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
     <section id="studentworks">
@@ -284,6 +319,8 @@
                         <img src="img/gallery/3.png" alt="">
                     </div>
                 </div> -->
+                <button class="boxed_btn3 mt-5 d-block mx-auto">See More</button>   
+
             </div>
         </div>
     </section>
@@ -333,7 +370,7 @@
                                         </form>
                                     </div>
                                 </div>
-                                <button class="boxed_btn3 mt-5 d-block mx-auto">Send Message</button>   
+                                <button class="boxed_btn3 mt-5 d-block mx-auto">Get in contact</button>   
                             </div>
                         </div>
                     </div>
