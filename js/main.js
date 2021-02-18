@@ -14,22 +14,16 @@ $(window).on('scroll', function () {
 
 
 $(document).ready(function(){
+  var menu = $('ul#navigation');
+  if(menu.length){
+    menu.slicknav({
+      prependTo: ".mobile_menu",
+      closedSymbol: '+',
+      openedSymbol:'-'
+    });
+  };
 
-// mobile_menu
-var menu = $('ul#navigation');
-if(menu.length){
-	menu.slicknav({
-		prependTo: ".mobile_menu",
-		closedSymbol: '+',
-		openedSymbol:'-'
-	});
-};
-// blog-menu
-  // $('ul#blog-menu').slicknav({
-  //   prependTo: ".blog_menu"
-  // });
 
-// review-active
 $('.slider_active').owlCarousel({
   loop:true,
   margin:0,

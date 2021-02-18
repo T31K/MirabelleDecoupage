@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/gijgo.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css" />  
+    <link rel="stylesheet" href="css/slick-theme.css"/>  
+  
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -44,24 +47,24 @@
                         </div>
                         <div class="col-xl-9 col-lg-9">
                             <div class="main-menu  d-none d-lg-block">
-                                <nav>
+                                <nav class="nav-menu">
                                     <ul id="navigation">
-                                        <li><a class="active" href="index.html#home">Home</a></li>
-                                        <li><a href="index.html#about">About</a></li>
-                                        <li><a href="index.html#courses">Courses</a></li>
-                                        <li><a href="index.html#products">Products <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
+                                        <li id="li_home"><a href="index.html#home">Home</a></li>
+                                        <li id="li_about"><a href="index.html#about">About</a></li>
+                                        <li id="li_courses"><a href="index.html#courses">Courses</a></li>
+                                        <li id="li_products"><a href="index.html#products">Products </i></a>
+                                            <!-- <ul class="submenu">
+                                                <li><a href="blog.html">blog<i class="ti-angle-down"></a></li>
                                                 <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li><a href="index.html#studentworks">Student Works <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
+                                        <li id="li_sw"><a href="index.html#studentworks">Student Works</a>
+                                            <!-- <ul class="submenu">
                                                 <li><a href="Accommodation.html">Accommodation</a></li>
                                                 <li><a href="elements.html">elements</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li><a href="index.html#contact">Contact</a></li>
+                                        <li id="li_contact"><a href="index.html#contact">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -75,17 +78,12 @@
         </div>
     </header>
 
-    <div class="slider_area ">
-        <div class="slider_area_inner slider_bg_1 overlay2">
-            <!-- <div class="slider_text text-center">
-                <div class="text_inner">
-                    <img src="img/banner/ornaments.png" alt="">
-                    <h3>Mirabellé Decoupage</h3>
-                    <span>Creativity Beyond Imagination Married</span>
-                </div>
-            </div> -->
-        </div>
-    </div>
+    <div class="main-slider">
+        <div class=""><img src="img/bg/bg_1.jpg"></div>
+        <div class=""><img src="img/bg/bg_2.jpg"></div>
+        <div class=""><img src="img/bg/bg_3.jpg"></div>
+      </div>
+
 
     <section id="about">
         <div class="weeding_countdown_area">
@@ -145,10 +143,37 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4">
-                            <div class="single_program program_bg_3 text-center">
+                            <div class="single_program program_bg_2 text-center">
                                 <div class="program_inner ">
                                     <img src="img/program_details/ornaments.png" alt="">
                                     <h3><span class="font-weight-bold">Sospeso Trasparente</span>  Certificate of Merit</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="single_program program_bg_1 text-center">
+                                <div class="program_inner ">
+                                    <h3><span class="font-weight-bold">TO-DO</span>  Bambini Teacher's Decoupage Programme</h3>
+                                    <img src="img/program_details/ornaments.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="single_program program_bg_2 text-center">
+                                <div class="program_inner ">
+                                    <h3> Japanese Decoupage <span class="font-weight-bold">FUNE-MIYABI</span>Programme</h3>
+                                    <img src="img/program_details/ornaments.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="single_program program_bg_1 text-center">
+                                <div class="program_inner ">
+                                    <h3>Hobby Classes</h3>
+                                    <img src="img/program_details/ornaments.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -258,55 +283,55 @@
                 <div class="row grid no-gutters">
                     <div class="col-xl-4 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_1">
-                            <a class="popup-image" href="img/gallery/1.png">
+                            <a class="popup-image" href="img/gallery/1.jpg">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_2">
-                            <a class="popup-image" href="img/gallery/2.png">
+                            <a class="popup-image" href="img/gallery/2.jpg">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_3">
-                            <a class="popup-image" href="img/gallery/3.png">
+                            <a class="popup-image" href="img/gallery/3.jpg">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_4">
-                            <a class="popup-image" href="img/gallery/4.png">
+                            <a class="popup-image" href="img/gallery/6.jpg">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_5">
-                            <a class="popup-image" href="img/gallery/5.png">
+                            <a class="popup-image" href="img/gallery/5.jpg">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_6">
-                            <a class="popup-image" href="img/gallery/6.png">
+                            <a class="popup-image" href="img/gallery/4.jpg">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_7">
-                            <a class="popup-image" href="img/gallery/7.png">
+                            <a class="popup-image" href="img/gallery/7.jpg">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_8">
-                            <a class="popup-image" href="img/gallery/8.png">
+                            <a class="popup-image" href="img/gallery/8.jpg">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-6 col-lg-6 grid-item">
                         <div class="single_gallery gallery_imag_9">
-                            <a class="popup-image" href="img/gallery/9.png"></a>
+                            <a class="popup-image" href="img/gallery/9.jpg"></a>
                         </div>
                     </div>
                 </div>
@@ -424,7 +449,8 @@
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
-
+    <script src="js/slick.min.js"></script>
+    <script src="js/slickConfig.js"></script>
     <script src="js/main.js"></script>
 
     <script>
