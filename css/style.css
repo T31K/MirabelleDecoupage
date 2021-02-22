@@ -462,6 +462,13 @@ h3 {
   color: #505050;
 }
 
+.section_title h1 {
+  font-size: 52px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #505050;
+}
+
 @media (max-width: 767px) {
   .section_title h3 {
     font-size: 25px;
@@ -985,7 +992,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text {
     transform: rotate(0deg);
     transform: translateX(-50%) translateY(-50%) rotate(0deg);
@@ -1167,6 +1173,21 @@ h3 {
   justify-content: space-evenly;
   padding-bottom: 36px;
   padding-top: 30px;
+}
+
+iframe{
+  width: 100%;
+}
+
+div.contact-details p {
+  font-size: 22px;
+  margin-bottom: 25px !important;
+
+}
+
+div.contact-details i {
+  font-size: 32px;
+  color: #727272;
 }
 
 @media (max-width: 767px) {
@@ -1599,6 +1620,9 @@ div.program_inner_content{
   margin: 0 3px;
 }
 
+li.active a{
+  color: #C78665;
+}
 /* line 65, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .social_links ul li a:hover {
   background: #C78665;
