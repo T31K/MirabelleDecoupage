@@ -1257,14 +1257,26 @@ div.program_inner{
   height: 350px !important;
 }
 
+div.longer{
+  height: 490px !important;
+}
+
 div.program_inner_content{
   height: 170px !important;
 }
 
+div.program_inner_content_alt{
+  height: 210px !important;
+}
+
+button a{
+  color: white;
+}
 .program_details_area .single_program .program_inner {
   background: #fff;
   padding: 57px 30px;
   opacity: 98%;
+  box-shadow: 0 70px 140px 0 rgba(130, 136, 171, 0.09);
 }
 
 .program_details_area .single_program .program_inner h3 {
@@ -1277,13 +1289,30 @@ div.program_inner_content{
   margin-bottom: 10px;
 }
 
-/* line 36, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
+.program_details_area .single_program .program_inner h4 {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #C78665;
+  margin-top: 10px;
+}
+
+
+.program_details_area .single_program .program_inner h5 {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #C78665;
+  margin-bottom: 10px;
+}
+
 .program_details_area .single_program .program_inner p {
   font-size: 16px;
   font-family: "Muli", sans-serif;
 }
 
-/* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
 .attending_area {
   padding-top: 95px;
   padding-bottom: 280px;
