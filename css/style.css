@@ -63,6 +63,10 @@ a:focus,
   outline: none;
 }
 
+button:hover{
+  background: #ebbba2 !important;
+}
+
 a:focus {
   color: #fff;
   text-decoration: none;
@@ -526,7 +530,7 @@ h3 {
   float: right;
   margin-top: 0;
   padding: 0;
-  width: 95%;
+  width: 100%;
   padding: 0;
   border-radius: 0px;
   margin-top: 5px;
@@ -644,11 +648,28 @@ h3 {
   .header-area .main-header-area {
     padding: 10px 0;
   }
+
+  .gallery_area .grid-item {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+ 
 }
 
+.about_slider{
+  border: 2px solid tomato;
+}
+
+button a:hover{
+  color: white;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .header-area .main-header-area {
     padding: 10px 0;
+  }
+  div.about_slider{
+    display: none;
   }
 }
 
@@ -656,11 +677,17 @@ h3 {
   .header-area .main-header-area {
     padding: 0 50px;
   }
+  div.about_slider{
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   .header-area .main-header-area {
     padding: 0 50px;
+  }
+   div.about_slider{
+    display: none;
   }
 }
 
@@ -1737,7 +1764,6 @@ li.active a{
 }
 
 @media (max-width: 767px) {
-  /* line 65, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
   .gallery_area {
     padding: 0;
   }
@@ -1753,10 +1779,9 @@ li.active a{
   position: relative;
 }
 
-/* line 80, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area .grid-item {
   overflow: hidden;
-  padding: 4px !important;
+  padding: 4px ;
 }
 
 /* line 84, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
