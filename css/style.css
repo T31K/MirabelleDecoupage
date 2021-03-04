@@ -64,7 +64,7 @@ a:focus,
 }
 
 button:hover{
-  background: #ebbba2 !important;
+  background: #FFBFC3 !important;
 }
 
 a:focus {
@@ -360,7 +360,7 @@ h3 {
 }
 
 .boxed_btn3 {
-  background: #C78665;
+  background: #DB8E8D;
   padding: 9px 26px;
   margin-bottom: 0;
   font-size: 20px;
@@ -375,7 +375,7 @@ h3 {
 
 .boxed_btn3:hover {
   background: #FAF0F0;
-  color: #C78665;
+  color: #fff;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -662,7 +662,7 @@ h3 {
 }
 
 button a:hover{
-  color: white;
+  color: white !important;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header-area .main-header-area {
