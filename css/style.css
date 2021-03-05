@@ -1107,11 +1107,19 @@ button a:hover{
   .slider_area_inner .slider_text:before {
     display: none;
   }
+
+  img.footer-logo{
+    width: 90% !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .slider_area_inner .slider_text:before {
     display: none;
+  }
+
+  img.footer-logo{
+    width: 60% !important;
   }
 }
 
@@ -1119,6 +1127,14 @@ button a:hover{
   .slider_area_inner .slider_text:before {
     display: none;
   }
+
+  img.footer-logo{
+    width: 50% !important;
+  }
+}
+
+img.footer-logo{
+  width: 50%;
 }
 
 .slider_area_inner .slider_text:after {
@@ -1392,6 +1408,7 @@ div.program_inner_content_alt img.brand-logo{
 div.program_inner_content_alt img.brand-logo-2{
   width: 50%;
 }
+
 
 .attending_area .main_attending_area .flower_1 {
   position: absolute;
