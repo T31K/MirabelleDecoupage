@@ -1299,6 +1299,7 @@ div.program_inner_content_alt{
 button a{
   color: white;
 }
+
 .program_details_area .single_program .program_inner {
   background: #fff;
   padding: 57px 30px;
@@ -1307,7 +1308,7 @@ button a{
 }
 
 .program_details_area .single_program .program_inner h3 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -1316,15 +1317,18 @@ button a{
   margin-bottom: 10px;
 }
 
+div.contact-details i:hover{
+  color: #C78655;
+}
+
 .program_details_area .single_program .program_inner h4 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 30px;
   color: #C78665;
   margin-top: 10px;
 }
-
 
 .program_details_area .single_program .program_inner h5 {
   font-family: "Muli", sans-serif;
@@ -1345,27 +1349,23 @@ button a{
   padding-bottom: 280px;
 }
 
-/* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
 .attending_area.plus_padding {
   padding-top: 265px;
 }
 
 @media (max-width: 767px) {
-  /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
   .attending_area.plus_padding {
     padding-top: 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
   .attending_area.plus_padding {
     padding-top: 0;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
   .attending_area {
     padding-top: 0;
     padding-bottom: 80px;
@@ -1373,34 +1373,38 @@ button a{
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
   .attending_area {
     padding-top: 0;
     padding-bottom: 40px;
   }
 }
 
-/* line 21, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
 .attending_area .main_attending_area {
   position: relative;
   z-index: 9;
 }
 
-/* line 25, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
+
+div.program_inner_content_alt img.brand-logo{
+  width: 30%;
+}
+
+div.program_inner_content_alt img.brand-logo-2{
+  width: 50%;
+}
+
 .attending_area .main_attending_area .flower_1 {
   position: absolute;
   left: 0;
   top: -120px;
 }
 
-/* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
 .attending_area .main_attending_area .flower_2 {
   position: absolute;
   right: 30px;
   bottom: -120px;
 }
 
-/* line 35, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
 .attending_area .main_attending_area .popup_box {
   background: #fff;
   display: inline-block;
