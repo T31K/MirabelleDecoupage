@@ -48,5 +48,10 @@ $(document).ready(function(){
             asNavFor: '.slider-center',
         });
 
-        $('.main-slider').slick();
+        $('.main-slider').slick({
+          arrows: true,
+          infinite: true,
+          speed: 300,
+          dots: true
+        })
 });

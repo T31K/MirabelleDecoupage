@@ -178,7 +178,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 28px;
     line-height: 20px;
 
     position: absolute;
@@ -202,4 +202,9 @@
 {
     opacity: .75;
     color: black;
+}
+
+.slick-dots li button:hover, div h4 a
+{
+    background: none !important;
 }
