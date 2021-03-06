@@ -30,7 +30,7 @@ body {
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
-  background: #fdfdfd;
+  background: #ffffff;
 }
 
 textarea{
@@ -374,16 +374,21 @@ label {
   width: 220px;
 }
 
-.boxed-btn2 {
-  background: #000;
-  color: #fff;
+.boxed_btn2 {
+  background: #ffdcb8;
+  padding: 9px 26px;
+  margin-bottom: 0;
+  border-radius: 1.5rem;
+  font-size: 20px;
+  color: #71686B;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   display: inline-block;
-  padding: 17px 50px 16px 50px;
-  font-size: 16px;
-  font-weight: 400;
-  border: 0;
-  text-transform: capitalize;
-  color: #fff;
+  border : none;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
+
 }
 
 .boxed-btn2:hover {
@@ -395,22 +400,25 @@ label {
 }
 
 .boxed_btn3 {
-  background: #DB8E8D;
+  background: #ffdcb8;
   padding: 9px 26px;
   margin-bottom: 0;
+  border-radius: 1.5rem;
   font-size: 20px;
-  color: #fff;
+  /* color: #71686B; */
+  color: #71686B !important;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   display: inline-block;
   border : none;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
+
 }
 
 .boxed_btn3:hover {
-  background: #FAF0F0;
-  color: #fff;
+  background: #ffc1b6;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1336,9 +1344,7 @@ div.program_inner_content_alt{
   height: 210px !important;
 }
 
-button a{
-  color: white;
-}
+
 
 .program_details_area .single_program .program_inner {
   background: #fff;

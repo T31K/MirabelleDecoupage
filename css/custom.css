@@ -87,8 +87,8 @@ h4.card__body{
   top: 2rem;
   right: -0.5rem;
   content: "";
-  background: #283593;
-  color: #283593;
+  background: #ffc1b6;
+  color: #ffc1b6;
   height: 28px;
   width: 28px;
   transform: rotate(45deg);
@@ -101,7 +101,7 @@ h4.card__body{
   right: -14px;
   padding: 0.5rem;
   width: 80%;
-  background: #3949ab;
-  color: #3949ab;
+  background: #ffc1b6;
+  color: #ffc1b6;
   text-align: center;
 }
