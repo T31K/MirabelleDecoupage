@@ -42,20 +42,33 @@ section.section_first{
 
 
 .card {
-  width: 100%;
+  width: 90%;
+
   background: white;
   box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
   border: none;  
   position: relative;
   color: #434343;
   margin: 0 auto;
-  margin-left: 10px;
-  margin-right: 10px;
+
   margin-top: 35px;
 }
 
+.card__container img{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.card__container img#mirabelle{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
 .card .card__container {
-  padding: 2rem;
+  padding: 1rem;
   width: 100%;
   height: 350px;
   background: white;
@@ -70,6 +83,15 @@ section.section_first{
   margin-bottom: 35px;
 }
 
+div.card__button{
+  background: #ffc1b6;
+}
+
+div.card__button_alt{
+  background: #ffdcb8 !important;
+}
+
+
 .card .card__header {
   margin-bottom: 1rem;
   font-family: "Playfair Display", serif;
@@ -82,7 +104,7 @@ h1.card__header {
 h4.card__body{
   margin-bottom: 55px;
 }
-.card::before {
+/* .card::before {
   position: absolute;
   top: 2rem;
   right: -0.5rem;
@@ -104,4 +126,19 @@ h4.card__body{
   background: #ffc1b6;
   color: #ffc1b6;
   text-align: center;
+} */
+
+/* @media screen and (max-width: 767px) {
+  div#brands_list {
+      display: none !important;
+  }
+
+  div#brands_slider{
+    display: block !important;
+  }
 }
+
+div#brands_slider{
+  display: none;
+} */
+

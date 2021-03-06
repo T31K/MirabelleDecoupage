@@ -375,12 +375,12 @@ label {
 }
 
 .boxed_btn2 {
-  background: #ffdcb8;
+  background: #ffc1b6;
   padding: 9px 26px;
   margin-bottom: 0;
   border-radius: 1.5rem;
   font-size: 20px;
-  color: #71686B;
+  color: #000;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
@@ -391,16 +391,13 @@ label {
 
 }
 
-.boxed-btn2:hover {
-  background: #fff;
-}
-
-.boxed-btn2:focus {
-  outline: none;
+.boxed_btn2:hover {
+    background: #fff2f0;
+  color: #000 !important;
 }
 
 .boxed_btn3 {
-  background: #ffdcb8;
+  background: #fff;
   padding: 9px 26px;
   margin-bottom: 0;
   border-radius: 1.5rem;
@@ -418,7 +415,8 @@ label {
 }
 
 .boxed_btn3:hover {
-  background: #ffc1b6;
+  background: #e4e4e4;
+  color: #000 !important;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -697,7 +695,7 @@ label {
 }
 
 button a:hover{
-  color: white !important;
+  color: #000 !important;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header-area .main-header-area {
