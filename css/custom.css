@@ -65,7 +65,7 @@ div.card__title{
 }
 
 .card__container img#mirabelle{
-  display: block;
+  display: bloc;
   margin: 0 auto;
   width: 100%;
 }
@@ -119,8 +119,3 @@ h4.card__body{
   margin-bottom: 55px;
 }
 
-section#gallery div.row{
-}
-
-section#gallery a img{
-}
