@@ -104,41 +104,9 @@ h1.card__header {
 h4.card__body{
   margin-bottom: 55px;
 }
-/* .card::before {
-  position: absolute;
-  top: 2rem;
-  right: -0.5rem;
-  content: "";
-  background: #ffc1b6;
-  color: #ffc1b6;
-  height: 28px;
-  width: 28px;
-  transform: rotate(45deg);
+
+section#gallery div.row{
 }
 
-.card::after {
-  position: absolute;
-  content: attr(data-label);
-  top: 11px;
-  right: -14px;
-  padding: 0.5rem;
-  width: 80%;
-  background: #ffc1b6;
-  color: #ffc1b6;
-  text-align: center;
-} */
-
-/* @media screen and (max-width: 767px) {
-  div#brands_list {
-      display: none !important;
-  }
-
-  div#brands_slider{
-    display: block !important;
-  }
+section#gallery a img{
 }
-
-div#brands_slider{
-  display: none;
-} */
-

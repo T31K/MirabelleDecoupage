@@ -46,11 +46,12 @@ $(document).ready(function() {
     slidesToShow: 1,
     adaptiveHeight: true,
     asNavFor: '.slider-center'
-  });
+  })
 
   $('.main-slider').slick({
     arrows: true,
     infinite: true,
+    autoplay: true,
     speed: 300,
     dots: true
   })

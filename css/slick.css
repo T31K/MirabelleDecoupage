@@ -114,6 +114,8 @@
 
     border: 1px solid transparent;
 }
-.slick-arrow.slick-hidden {
-    display: none;
-}
+
+
+  .slick-prev:before, .slick-next:before {
+    color: #09529b !important;
+  }
