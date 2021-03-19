@@ -63,4 +63,14 @@ $(document).ready(function() {
     speed: 300,
     dots: true
   })
+
+  $('.slider-brands').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    arrows: false,
+    autoplay: true
+  })
 })

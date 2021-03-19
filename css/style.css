@@ -205,7 +205,10 @@ label {
   opacity: 1;
 }
 
-
+img, div:focus, div:active{
+  outline: none;
+  border: none;
+}
 
 .mb-65 {
   margin-bottom: 67px;
@@ -705,6 +708,7 @@ button a:hover{
   div.about_slider{
     display: none;
   }
+ 
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -714,6 +718,8 @@ button a:hover{
   div.about_slider{
     display: none;
   }
+
+
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -723,6 +729,12 @@ button a:hover{
    div.about_slider{
     display: none;
   }
+
+ 
+}
+
+div#brands_mobile{
+  display: none;
 }
 
 @media (max-width: 767px) {
@@ -773,6 +785,14 @@ button a:hover{
 
 @media (max-width: 767px) {
   .header-area .main-header-area .main-menu ul li a i {
+    display: none !important;
+  }
+
+  div#brands_mobile{
+    display: block !important;
+  }
+
+  div#brands_desktop{
     display: none !important;
   }
 }
