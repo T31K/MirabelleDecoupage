@@ -1753,41 +1753,7 @@ li.active a{
   display: none;
 }
 
-.gallery_imag_1 {
-  background-image: url(../img/gallery/1.jpg);
-}
 
-.gallery_imag_2 {
-  background-image: url(../img/gallery/2.jpg);
-}
-
-.gallery_imag_3 {
-  background-image: url(../img/gallery/3.jpg);
-}
-
-.gallery_imag_4 {
-  background-image: url(../img/gallery/6.jpg);
-}
-
-.gallery_imag_5 {
-  background-image: url(../img/gallery/5.jpg);
-}
-
-.gallery_imag_6 {
-  background-image: url(../img/gallery/4.jpg);
-}
-
-.gallery_imag_7 {
-  background-image: url(../img/gallery/7.jpg);
-}
-
-.gallery_imag_8 {
-  background-image: url(../img/gallery/8.jpg);
-}
-
-.gallery_imag_9 {
-  background-image: url(../img/gallery/9.jpg);
-}
 
 .gallery_area {
   padding: 0 50px;
