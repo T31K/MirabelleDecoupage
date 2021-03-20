@@ -28,7 +28,6 @@
 
       for (var i = 1; i <= 36; i++){
           $(`.gallery_image_${i}`).css('background-image', `url(../img/gallery/${i}.jpg)`);
-          
       }
 
       
