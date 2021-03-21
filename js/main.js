@@ -30,6 +30,10 @@
           $(`.gallery_image_${i}`).css('background-image', `url(../img/gallery/${i}.jpg)`);
       }
 
+      for (var j = 3; j <= 11; j++){
+        $(`.about_artist_${j}`).css('background-image', `url(../img/about/artist/${j}.jpg)`);
+    }
+
       
     })
 
