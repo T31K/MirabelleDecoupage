@@ -97,6 +97,9 @@ div.card__title{
   margin-bottom: 35px;
 }
 
+div.card__container__branches h6{
+  font-weight: 800;
+}
 div.card__button{
   background: #ffc1b6;
 }
