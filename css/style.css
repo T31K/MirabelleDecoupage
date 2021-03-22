@@ -2789,7 +2789,6 @@ div#desktop_slider{
   cursor: pointer;
 }
 
-/* line 646, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
 .primary-switch input {
   position: absolute;
   left: 0;
@@ -2864,7 +2863,6 @@ div#desktop_slider{
   cursor: pointer;
 }
 
-/* line 711, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
 .confirm-switch input {
   position: absolute;
   left: 0;
@@ -3119,7 +3117,6 @@ div#desktop_slider{
   border: 1px solid #f1f1f1;
 }
 
-/* line 950, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
 .confirm-radio input:checked + label {
   background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
@@ -3226,7 +3223,6 @@ div#desktop_slider{
   width: 100%;
 }
 
-/* line 1045, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
 .form-select .nice-select {
   border: none;
   border-radius: 0px;
@@ -3659,7 +3655,6 @@ div#desktop_slider{
   margin-left: 2px;
 }
 
-/*========= blog_categorie_area css ===========*/
 .blog_categorie_area {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -3947,12 +3942,10 @@ div#desktop_slider{
   padding-bottom: 12px;
 }
 
-/* line 760, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_blog.scss */
 .blog_right_sidebar .post_category_widget .cat-list li:last-child {
   border-bottom: 0;
 }
 
-/* line 764, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_blog.scss */
 .blog_right_sidebar .post_category_widget .cat-list li a {
   font-size: 14px;
   line-height: 20px;

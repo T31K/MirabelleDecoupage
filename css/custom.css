@@ -1,45 +1,6 @@
-
 section.section_first{
     margin-top: 70px;
 }
-
-.about_gallery_image_1 {
-    background-image: url('../img/about/the artist/2_1 todo.jpg') !important;
-  }
-  
-  .about_gallery_image_2 {
-    background-image: url('../img/about/the artist/3 decofoam.jpg')  !important;
-  }
-  
-  .about_gallery_image_3 {
-    background-image: url('../img/about/the artist/3.1 decofoam.jpg')  !important;
-  }
-  
-  .about_gallery_image_4 {
-    background-image: url('../img/about/the artist/5.jpg')  !important;
-  }
-  
-  .about_gallery_image_5 {
-    background-image: url('../img/about/the artist/decofoam\ 2.jpg')  !important;
-  }
-  
-  .about_gallery_image_6 {
-    background-image: url('../img/about/the artist/decofoam.jpg')  !important;
-  }
-  
-  .about_gallery_image_7 {
-    background-image: url('../img/about/the artist/decofoam\ 3.jpg')  !important;
-  }
-  
-  .about_gallery_image_8 {
-    background-image: url('../img/about/the artist/fune.jpg')  !important;
-  }
-  
-  .about_gallery_image_9 {
-    background-image: url('../img/about/the artist/sospeso\ 1.jpg')  !important;
-  }
-
-
 
 .card {
   width: 90%;
@@ -107,7 +68,6 @@ div.card__button{
 div.card__button_alt{
   background: #ffdcb8 !important;
 }
-
 
 .card .card__header {
   margin-bottom: 1rem;
