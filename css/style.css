@@ -4751,3 +4751,7 @@ div#desktop_slider{
 .w-20{
   width: 20% !important;
 }
+
+p.caption-header{
+  font-size: 25px !important;
+}
