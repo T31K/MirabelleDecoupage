@@ -25,16 +25,18 @@
 
 
     $(document).ready(function(){
-
-      for (var i = 1; i <= 36; i++){
+      for (let i = 1; i <= 36; i++){
           $(`.gallery_image_${i}`).css('background-image', `url(../img/gallery/${i}.jpg)`);
       }
 
-      for (var j = 3; j <= 11; j++){
+      for (let j = 3; j <= 11; j++){
         $(`.about_artist_${j}`).css('background-image', `url(../img/about/artist/${j}.jpg)`);
-    }
+      }
 
-      
+      for (let k = 1; k <= 11; k++){
+        $(`.about_studio_${k}`).css('background-image', `url(../img/about/studio/desktop/${k}.jpg)`);
+      }
+
     })
 
   $('.slider_active').owlCarousel({

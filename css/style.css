@@ -4724,23 +4724,30 @@ div#desktop_slider{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 150, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 150, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
-/* line 166, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.w-50{
+  width: 50% !important;
+}
+
+.w-30{
+  width: 30% !important;
+}
+
+.w-20{
+  width: 20% !important;
+}
