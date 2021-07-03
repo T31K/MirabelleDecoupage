@@ -10012,8 +10012,7 @@ span.bg{
 .sale-banner11 .inner .content .title {
   font-size: 34px;
   font-weight: 400;
-  line-height: 1.1;
-  margin-bottom: 20px;
+  line-height: 1.1;  margin-bottom: 20px;
 }
 
 .sale-banner11:hover .inner > img {
@@ -10055,7 +10054,29 @@ span.bg{
   content: "";
 }
 
+.owl-1 {
+  background-image: url('../images/about/index/artist.jpg');
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  height: 500px;
+}
 
+.owl-2 {
+  background-image: url('../images/about/index/studio.jpg');
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  height: 500px;
+}
+
+.owl-3 {
+  background-image: url('../images/about/index/highlights.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
 
 .category-banner1 .inner .content .title {
   font-size: 24px;

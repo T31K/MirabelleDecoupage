@@ -529,6 +529,8 @@
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
         prevArrow: '<button class="slick-prev"><i class="fal fa-long-arrow-left"></i></button>',
         nextArrow: '<button class="slick-next"><i class="fal fa-long-arrow-right"></i></button>',
         responsive: [{
@@ -773,7 +775,16 @@
         })
     })
 
-    $('.owl-carousel').owlCarousel()
+    $('.owl-carousel').owlCarousel({
+        navigation : true,
+        slideSpeed : 300,
+        paginationSpeed : 500,
+        items: 1,
+        loop: true,
+        singleItem: true,
+        autoplay:true,
+        autoplayTimeout: 2000,
+    })
     /*--
         On Load Function
     -----------------------------------*/
@@ -787,6 +798,25 @@
     $window.resize(function () {
         subMenuMegaMenuAlignment()
     })
+
+
+    $('.lazy-load').each(function() {
+      let i = $(this).attr('id')
+      $(this).parent().addClass(`owl-${i}`)
+    })
+
+    $(".owl-1").click(function() {
+        window.location = "/theartist";
+    })
+
+    $(".owl-2").click(function() {
+        window.location = "/thestudio";
+    })
+
+    $(".owl-3").click(function() {
+        window.location = "/highlights";
+    })
+
 
     const observer = lozad()
     observer.observe()
