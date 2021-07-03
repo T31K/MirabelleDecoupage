@@ -1601,6 +1601,41 @@ body.homepage-bg1.offcanvas-open {
   background-color: transparent;
 }
 
+.center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.one-time div {
+  width: 100%;
+  text-align: center;
+  height: 700px;
+  color: white;
+}
+
+.one-time img {
+  margin-top: 35px;
+}
+
+.one-time div.about-slider-1 {
+  background-image: url('../images/about/thestudio.jpg');
+  background-size: cover;
+}
+
+.one-time div.about-slider-2 {
+  background-image: url('../images/about/theartist/2.jpg');
+  background-size: cover;
+
+}
+
+.one-time div.about-slider-3 {
+  background-image: url('../images/about/2019.jpg');
+  background-size: cover;
+
+}
+
 /* 03.08. Swiper Slider */
 .swiper-slider-wrapper {
   position: relative;
@@ -1780,6 +1815,11 @@ body.homepage-bg1.offcanvas-open {
   border-color: var(--brandPink);;
   background-color: var(--brandPink);;
   color: #FFFFFF;
+}
+
+.btn-disabled {
+  background-color: var(--lightGrey);
+  border-color: var(--lightGrey);
 }
 
 .btn-primary2:hover {
@@ -9997,6 +10037,10 @@ span.bg{
   overflow: hidden;
 }
 
+.category-banner1 img {
+  height: 250px;
+}
+
 .category-banner1 .inner .image:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -10009,13 +10053,9 @@ span.bg{
   width: calc(100% - 30px);
   height: calc(100% - 30px);
   content: "";
-  border: 1px solid #FFFFFF;
 }
 
-.category-banner1 .inner .image img {
-  width: 100%;
-  height: 240px;
-}
+
 
 .category-banner1 .inner .content .title {
   font-size: 24px;
@@ -11031,11 +11071,6 @@ span.bg{
   margin-bottom: -50px;
 }
 
-section#products a img{
-  filter: grayscale(100%);
-  width: 60%;
-  margin: 0 auto;
-}
 
 .products .product {
   margin-bottom: 50px;

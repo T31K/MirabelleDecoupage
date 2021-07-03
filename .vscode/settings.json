@@ -4,5 +4,6 @@
         "gladwrap",
         "sospeso",
         "trasparente"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

@@ -546,6 +546,28 @@
         ]
     })
 
+    $('.one-time').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        adaptiveHeight: true,
+        arrows: false,
+        responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 4
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1
+            }
+        },
+    ]
+
+    })
 
 
     /*--
@@ -751,7 +773,7 @@
         })
     })
 
-    $('.owl-carousel').owlCarousel();
+    $('.owl-carousel').owlCarousel()
     /*--
         On Load Function
     -----------------------------------*/
@@ -765,5 +787,8 @@
     $window.resize(function () {
         subMenuMegaMenuAlignment()
     })
+
+    const observer = lozad()
+    observer.observe()
 
 })(jQuery)
