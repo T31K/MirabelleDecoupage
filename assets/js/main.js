@@ -814,7 +814,7 @@
     })
 
     $(".owl-3").click(function() {
-        window.location = "/highlights";
+        window.location = "/about";
     })
 
 
