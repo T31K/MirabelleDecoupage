@@ -1,0 +1,109 @@
+section#gallery {
+  margin-top: 150px;
+}
+
+
+
+span,
+b {
+  font-size: 1.2rem;
+}
+
+span {
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+
+.staggered-grid {
+  display: grid;
+  width: 43.75rem;
+  min-height: 100vh;
+  padding: 2rem 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(9, 9rem);
+  grid-gap: 1.5rem;
+  animation: fade-and-slide-in 2000ms 1 forwards cubic-bezier(0.17, 0.91, 0.73, 1.03);
+}
+
+@keyframes fade-and-slide-in {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.picture-container {
+  background-position: center center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-container:hover a {
+  opacity: 1;
+}
+
+div.picture-container:nth-child(1) {
+  background-image: url('../images/courses/bambini/1.jpg');
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+div.picture-container:nth-child(2) {
+  background-image: url('../images/courses/bambini/2.jpg');
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+div.picture-container:nth-child(3) {
+  background-image: url('../images/courses/decofoam/5.jpg');
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+div.picture-container:nth-child(4) {
+  background-image: url('../images/courses/bambini/5.jpg');
+  grid-column-start: 2;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+div.picture-container:nth-child(5) {
+  background-image: url('../images/courses/merit/5.jpg');
+  grid-column-start: 1;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+div.picture-container:nth-child(6) {
+  background-image: url('../images/courses/hobby/6.jpg');
+  grid-column-start: 2;
+  grid-row-start: 6;
+  grid-row-end: 8;
+}
+
+div.picture-container:nth-child(7) {
+  background-image: url('../images/courses/todo-teacher/5.jpg');
+  grid-column-start: 1;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+
+div.picture-container:nth-child(8) {
+  background-image: url('../images/courses/japan/5.jpg');
+  grid-column-start: 2;
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
