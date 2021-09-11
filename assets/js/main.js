@@ -779,6 +779,7 @@
         navigation : true,
         slideSpeed : 300,
         paginationSpeed : 500,
+        navText : ['<i class="fa fa-angle-left" style= aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
         items: 1,
         loop: true,
         singleItem: true,
