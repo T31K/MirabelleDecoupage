@@ -3,8 +3,8 @@ const spinBtn = document.getElementById('spin');
 const spinWheel = document.getElementById('wheel');
 
 
-const token = window.localStorage.getItem('spinner')
-if (!token) {
+// const token = window.localStorage.getItem('spinner')
+// if (!token) {
   spinBtn.addEventListener('click', async (e) => {
     const lengthOfSpin = getComputedStyle(spinWheel).getPropertyValue('--spin-time');
     const startingDeg = Number(spinWheel.dataset.currDeg) || 500;
@@ -23,10 +23,11 @@ if (!token) {
     await sleep(lengthOfSpin)
     $('#luckydraw').modal('toggle')
   });
-} else {
-  spinBtn.style.display = "none"
-  $('#claimed').modal('toggle')
-}
+
+// } else {
+//   spinBtn.style.display = "none"
+//   $('#claimed').modal('toggle')
+// }
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
