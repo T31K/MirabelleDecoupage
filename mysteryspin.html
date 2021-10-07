@@ -226,7 +226,50 @@
 
 
     <section class="timeline">
-        <div id="main" >
+        <h3 class='text-center'>Mystery Spin</h3>
+        <h5 class='text-center'>You have <span id="spins_left">2 spins</span> left!</h5>
+
+        <div id="others">
+            <div class="section section-padding">
+                <div class="container p-0">
+                    <div class="row learts-mb-n30">
+                        <div class="col-lg-4 col-12 align-self-center learts-mb-30"  id="theartist_text">
+                            <div class="about-us4">
+                                <span class="sub-title">THE ARTIST </span>
+                                <h2 class="title">Mira Chong</h2>
+                                <a href="/theartist" class="btn btn-primary2 btn-hover-black mb-5">My Story</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-12 learts-mb-30" id="theartist_img">
+                            <p>Read more on...</p>
+                            <img src="assets/images/about/home_1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About Section End -->
+
+            <!-- About Section Start -->
+            <div class="section section-fluid section-padding pt-0" >
+                <div class="container">
+                    <div class="row learts-mb-n30">
+                        <div class="col-lg-6 col-12 text-center learts-mb-30">
+                            <img src="assets/images/about/thestudio.jpg" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12 align-self-center learts-mb-30">
+                            <div class="about-us4">
+                                <span class="sub-title">THE STUDIO</span>
+                                <h2 class="title">Mirabellé Decoupage</h2>
+                                <a href="/thestudio" class="btn btn-primary2 btn-hover-black mb-5">Our Story</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main">
             <div class="spinner" id="container" >
                 <ul class="spinner-list" id="wheel">
                     <li class="spinner-slice">
@@ -242,7 +285,7 @@
                         <p class="spinner-slice-text" contenteditable="contenteditable">60ml Decoupage Basic Set</p>
                     </li>
                     <li class="spinner-slice">
-                        <p class="spinner-slice-text" contenteditable="contenteditable">3 title</p>
+                        <p class="spinner-slice-text" contenteditable="contenteditable">110ml Background Colors</p>
                     </li>
                     <li class="spinner-slice">
                         <p class="spinner-slice-text" contenteditable="contenteditable">110ml Decoupage Glue</p>
@@ -286,7 +329,7 @@
                         <p class='text-center'> Take a screenshot of this page to <br> redeem item</p>
                         <p class="text-center">Item only can be redeemed at Mirabelle Decoupage, valid for 14 days.</p>
                         <p class="text-center">Funds are not refundable and shipping cost not included.</p>
-
+                        <p class='text-center' id='spin_again'>Spin Again?</p>
                 </div>
 
                 </div>
@@ -297,6 +340,9 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                 <div class="modal-header" >
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"  >
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <img src="assets/images/logo/logo.png" alt="">
@@ -314,7 +360,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="about-us4">
-                    <btn class="btn btn-primary2 btn-hover-black text-white mb-5" id="spin" >Spin</btn>
+                    <button class="btn btn-primary2 text-white mb-5" id="spin" >Spin</button>
+                </div>
+                <div class="spin_again">
+                    <button class="btn btn-primary2 text-white mb-5" id="spin_again" >Spin Again</button>
                 </div>
             </div>
         </div>

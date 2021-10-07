@@ -530,9 +530,9 @@
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1500,
-        prevArrow: '<button class="slick-prev"><i class="fal fa-long-arrow-left"></i></button>',
-        nextArrow: '<button class="slick-next"><i class="fal fa-long-arrow-right"></i></button>',
+        arrows: false,
+        pauseOnHover: false,
+        autoplaySpeed: 500,
         responsive: [{
                 breakpoint: 991,
                 settings: {

@@ -14,9 +14,9 @@ h1#promo {
   Helvetica,
   sans-serif !important;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
   padding: 20px 0;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -467,15 +467,29 @@ section.timeline li {
   display: block;
 }
 
+.btn-round {
+  width: 20px;
+}
 @media (max-width: 576px) {
   .spinner {
     transform: scale(1.6);
   }
 
   #main {
-    height: 65vh;
+    height: 60vh;
   }
 }
 
 
 
+@media (min-width: 767px) and (max-width: 1024px) {
+  #main {
+    height: 75vh;
+  }
+}
+
+
+p#spin_again {
+  text-decoration: underline;
+  color: #EE4266;
+}
