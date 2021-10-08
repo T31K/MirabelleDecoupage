@@ -110,8 +110,9 @@ section.timeline li:before {
 }
 
 section.timeline p {
-  color: #4f4f4f;
-  line-height: 1.5;
+  color: white;
+  line-height: 1.0;
+  font-size: 5px;
   margin-top: 0.4rem;
 }
 
@@ -481,15 +482,51 @@ section.timeline li {
 }
 
 
-
 @media (min-width: 767px) and (max-width: 1024px) {
   #main {
     height: 75vh;
   }
 }
 
-
 p#spin_again {
   text-decoration: underline;
   color: #EE4266;
+}
+
+p.text-modal-b {
+  color: #3c3434 !important;
+  font-size: 15px !important;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 20px;
+  background-color: #FF715B;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 99999;
+}
+
+a.float i {
+  color: white;
+}
+
+.my-float {
+  font-size: 24px;
+  margin-top: 18px;
+}
+
+a.float+div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.float:hover+div.label-container {
+  visibility: visible;
+  opacity: 1;
 }
