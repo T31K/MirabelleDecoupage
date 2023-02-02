@@ -11270,6 +11270,14 @@ span.bg{
   position: relative;
 }
 
+.product-thumb {
+  height: 340px;
+  width: 340px;
+  display: flex;  
+  align-items: center;
+  background: #eaeaea;
+}
+
 .product:hover .product-thumb .image img.image-hover {
   z-index: 1;
   visibility: visible;
